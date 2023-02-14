@@ -88,7 +88,7 @@ body {
 .open-popupWrl {
     visibility: visible;
     top: 50%;
-    transform: translate(-90%, 320px) scale(1);
+    transform: translate(-90%, 50px) scale(1);
     width: 656px;
     height: 605px;
 }
@@ -156,7 +156,7 @@ body {
 .open-popupT {
     visibility: visible;
     top: 50%;
-    transform: translate(-90%, 320px) scale(1);
+    transform: translate(-90%, 50px) scale(1);
     width: 656px;
     height: 605px;
 }
@@ -231,7 +231,7 @@ body {
 .open-popupH {
     visibility: visible;
     top: 50%;
-    transform: translate(-90%, 320px) scale(1);
+    transform: translate(-90%, 50px) scale(1);
     width: 656px;
     height: 605px;
 }
@@ -299,7 +299,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%) scale(0.1);
     text-align: center;
-    padding: 0 30px 30px;
+    padding: 0 30px 35px;
     visibility: hidden;
     transition: transform 0.8s, top 0.8s;
 }
@@ -307,7 +307,7 @@ body {
 .open-popupX {
     visibility: visible;
     top: 50%;
-    transform: translate(-90%, 320px) scale(1);
+    transform: translate(-90%, 50px) scale(1);
     width: 656px;
     height: 600px;
 }
@@ -348,14 +348,20 @@ body {
 
 
 
+
+
+
+
+
+
 .dfText {
     position: relative;
     text-align: center;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 64px;
     line-height: 58px;
     color: white;
-    padding-top: 250px;
+    margin-top: 250px;
 }
 
 .dvImg {
@@ -365,11 +371,22 @@ body {
     padding-left: 96px;
     margin-top: 85px;
 }
+
+
+
+
+
+
+
+
+
+
+
 .containerP {
     color: rgb(255, 255, 255);
     display: flex;
     padding-left: 65%;
-    margin-top: -200px;
+    margin-top: -540px;
 }
 
 .btnP {
@@ -399,15 +416,15 @@ body {
 .open-popupP {
     visibility: visible;
     top: 50%;
-    transform: translate(-90%, 320px) scale(1);
+    transform: translate(-90%, 1230px) scale(1);
     width: 656px;
     height: 600px;
 }
 
 .popupP img {
-    width: 150px;
+    width: 110px;
     margin-top: -50px;
-    border-radius: 50%;
+    border-radius: 50px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
 }
 
@@ -431,5 +448,642 @@ body {
 }
 
 .popupP p {
-    font-size: 16px;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+.containerS {
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding-left: 65%;
+    margin-top: 110px;
+}
+
+.btnS {
+    font-size: 20px;
+    padding: 10px 60px;
+    background: gray;
+    color: white;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.popupS {
+    background: rgb(73, 72, 71);
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.8s, top 0.8s;
+}
+
+.open-popupS {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-90%, 1230px) scale(1);
+    width: 656px;
+    height: 600px;
+}
+
+.popupS img {
+    width: 110px;
+    margin-top: -50px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.popupS h2 {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popupS button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0;
+    background: orange;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.popupS p {
+    font-size: 20px;
+}
+
+
+
+
+
+
+.containerI {
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding-left: 65%;
+    margin-top: 110px;
+}
+
+.btnI {
+    font-size: 20px;
+    padding: 10px 60px;
+    background: gray;
+    color: white;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.popupI {
+    background: rgb(73, 72, 71);
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.8s, top 0.8s;
+}
+
+.open-popupI {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-90%, 1230px) scale(1);
+    width: 656px;
+    height: 600px;
+}
+
+.popupI img {
+    width: 110px;
+    margin-top: -50px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.popupI h2 {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popupI button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0;
+    background: orange;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.popupI p {
+    font-size: 18.5px;
+}
+
+
+
+
+
+
+
+.containerHr {
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding-left: 65%;
+    margin-top: 110px;
+}
+
+.btnHr {
+    font-size: 20px;
+    padding: 10px 60px;
+    background: gray;
+    color: white;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.popupHr {
+    background: rgb(73, 72, 71);
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.8s, top 0.8s;
+}
+
+.open-popupHr {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-90%, 1230px) scale(1);
+    width: 656px;
+    height: 600px;
+}
+
+.popupHr img {
+    width: 110px;
+    margin-top: -50px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+    ;
+}
+
+.popupHr h2 {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popupHr button {
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px 0;
+    background: orange;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.popupHr p {
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.arText {
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 58px;
+    color: white;
+    margin-top: 250px;
+}
+
+.arImg {
+    display: flex;
+    width: 656px;
+    height: 605px;
+    padding-left: 96px;
+    margin-top: 85px;
+}
+
+
+
+
+
+
+.containerA {
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding-left: 65%;
+    margin-top: -540px;
+}
+
+.btnA {
+    font-size: 20px;
+    padding: 10px 60px;
+    background: gray;
+    color: white;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.popupA {
+    background: rgb(73, 72, 71);
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.8s, top 0.8s;
+}
+
+.open-popupA {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-90%, 2200px) scale(1);
+    width: 656px;
+    height: 600px;
+}
+
+.popupA img {
+    width: 110px;
+    margin-top: -50px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.popupA h2 {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popupA button {
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px 0;
+    background: orange;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.popupA p {
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.containerSw {
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding-left: 65%;
+    margin-top: 70px;
+}
+
+.btnSw {
+    font-size: 20px;
+    padding: 10px 60px;
+    background: gray;
+    color: white;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.popupSw {
+    background: rgb(73, 72, 71);
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.8s, top 0.8s;
+}
+
+.open-popupSw {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-90%, 2200px) scale(1);
+    width: 656px;
+    height: 600px;
+}
+
+.popupSw img {
+    width: 110px;
+    margin-top: -50px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.popupSw h2 {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popupSw button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0;
+    background: orange;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.popupSw p {
+    font-size: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containerSt {
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding-left: 65%;
+    margin-top: 70px;
+}
+
+.btnSt {
+    font-size: 20px;
+    padding: 10px 60px;
+    background: gray;
+    color: white;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.popupSt {
+    background: rgb(73, 72, 71);
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.8s, top 0.8s;
+}
+
+.open-popupSt {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-90%, 2200px) scale(1);
+    width: 656px;
+    height: 600px;
+}
+
+.popupSt img {
+    width: 110px;
+    margin-top: -50px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.popupSt h2 {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popupSt button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0;
+    background: orange;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.popupSt p {
+    font-size: 29px;
+}
+
+
+
+
+
+
+
+.containerSh {
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding-left: 65%;
+    margin-top: 70px;
+}
+
+.btnSh {
+    font-size: 20px;
+    padding: 10px 60px;
+    background: gray;
+    color: white;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.popupSh {
+    background: rgb(73, 72, 71);
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.8s, top 0.8s;
+}
+
+.open-popupSh {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-90%, 2200px) scale(1);
+    width: 656px;
+    height: 600px;
+}
+
+.popupSh img {
+    width: 110px;
+    margin-top: -50px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.popupSh h2 {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popupSh button {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: orange;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.popupSh p {
+    font-size: 34px;
+}
+
+
+
+
+
+
+
+.containerSx {
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding-left: 65%;
+    margin-top: 70px;
+}
+
+.btnSx {
+    font-size: 20px;
+    padding: 10px 60px;
+    background: gray;
+    color: white;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.popupSx {
+    background: rgb(73, 72, 71);
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    visibility: hidden;
+    transition: transform 0.8s, top 0.8s;
+}
+
+.open-popupSx {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-90%, 2200px) scale(1);
+    width: 656px;
+    height: 600px;
+}
+
+.popupSx img {
+    width: 110px;
+    margin-top: -50px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.popupSx h2 {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popupSx button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0;
+    background: orange;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.popupSx p {
+    font-size: 15px;
 }
