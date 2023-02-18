@@ -5,6 +5,9 @@ function openPopupWrl() {
 function closePopupWrl() {
     popup.classList.remove("open-popupWrl");
 }
+
+
+
 let popupT = document.getElementById("popupT")
 function openPopupT() {
     popupT.classList.add("open-popupT");
@@ -12,6 +15,10 @@ function openPopupT() {
 function closePopupT() {
     popupT.classList.remove("open-popupT");
 }
+
+
+
+
 let popupH = document.getElementById("popupH")
 function openPopupH() {
     popupH.classList.add("open-popupH");
@@ -19,6 +26,10 @@ function openPopupH() {
 function closePopupH() {
     popupH.classList.remove("open-popupH");
 }
+
+
+
+
 let popupX = document.getElementById("popupX")
 function openPopupX() {
     popupX.classList.add("open-popupX");
@@ -26,6 +37,10 @@ function openPopupX() {
 function closePopupX() {
     popupX.classList.remove("open-popupX");
 }
+
+
+
+
 let popupP = document.getElementById("popupP")
 function openPopupP() {
     popupP.classList.add("open-popupP");

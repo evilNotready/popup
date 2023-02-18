@@ -82,7 +82,7 @@ body {
     text-align: center;
     padding: 0 30px 30px;
     visibility: hidden;
-    transition: transform 0.8s, top 0.8s;
+    transition: transform 0.8s, top 0.8s, 0.8s visibility;
 }
 
 .open-popupWrl {
@@ -92,6 +92,7 @@ body {
     width: 656px;
     height: 605px;
 }
+
 
 .popupWrl img {
     width: 150px;
